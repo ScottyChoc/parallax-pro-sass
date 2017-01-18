@@ -1,0 +1,43 @@
+/*
+Widgets
+---------------------------------------------------------------------------------------------------- */
+
+.widget {
+  word-wrap: break-word;
+  ol > li {
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-left: 20px;
+    text-indent: -20px;
+  }
+  li li {
+    border: none;
+    margin: 0 0 0 30px;
+    padding: 0;
+  }
+}
+
+.widget_calendar {
+  table {
+    width: 100%;
+  }
+  td, th {
+    text-align: center;
+  }
+}
+
+/* Simple Social Icons
+--------------------------------------------- */
+
+.parallax-home .content .simple-social-icons {
+  margin-top: 40px;
+  ul li {
+    margin: 0 20px !important;
+    a {
+      padding: 30px;
+      &:hover {
+        padding: 30px;
+      }
+    }
+  }
+}
